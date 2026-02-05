@@ -1,94 +1,50 @@
-Behavioural Evaluation 
+## Behavioural Evaluation
 
-Purpose of This Section
+### Purpose of This Section
 The Behavioural Evaluation section examines how ZomoBot interacts with users, beyond factual correctness or policy compliance.
 This section exists to evaluate AI behaviour as experienced by real users—including tone, framing, escalation, and the subtle ways responses influence judgment, trust, and action.
 In safety- and trust-sensitive domains, behavioural failures often present greater risk than factual errors. This section addresses that reality directly.
 
-Why Behavioural Evaluation Is Necessary
+### Why Behavioural Evaluation Is Necessary
 Traditional AI evaluations often focus on:
-  Accuracy
-  Refusal correctness
-  olicy alignment
+- Accuracy
+- Refusal correctness
+- Policy alignment
+
 While necessary, these checks are insufficient on their own.
+
 In real-world usage, users respond to:
-  Confidence
-  Authority cues
-  Emotional framing
-  Perceived urgency
+- Confidence
+- Authority cues
+- Emotional framing
+- Perceived urgency
+
 As a result, an AI response can be factually correct and still unsafe if it induces panic, over-reliance, or inappropriate escalation.
 Behavioural evaluation is therefore treated as a first-class risk assessment, not a secondary quality check.
 
-AUMI-Aligned Evaluation Lens
+### AUMI-Aligned Evaluation Lens
 This section follows an AUMI-aligned (AI–User–Model Interaction) approach.
 Under this lens:
-  AI responses are evaluated as interactive experiences
-  User interpretation and likely action are central
-  Tone, framing, and escalation are evaluated alongside content
-  Behavioural impact outweighs surface correctness
-The goal is to understand how users are likely to react, not how the model intended to respond.
+- AI responses are evaluated as interactive experiences
+- User interpretation and likely action are central
+- Tone, framing, and escalation are evaluated alongside content
+- Behavioural impact outweighs surface correctness
 
-Behavioural Dimensions Covered
-Behavioural evaluation in this section focuses on the following dimensions, each documented separately:
-  Tone and Framing: how language influences trust, fear, or reassurance
-  Response Structure: how guidance is presented and how actionable it is
-  Escalation Proportionality: alignment between risk level and urgency
-  Misuse and Panic Risk: potential for inducing fear or over-reliance
-  Refusal and Boundary Integrity: consistency under pressure or repetition
-Each dimension is evaluated independently and in combination with others.
+### Behavioural Dimensions Covered
+Behavioural evaluation in this section focuses on the following dimensions:
+- Tone and Framing
+- Response Structure
+- Escalation Proportionality
+- Misuse and Panic Risk
+- Refusal and Boundary Integrity
 
-Evaluation Philosophy
-Behavioural evaluation is guided by the following principles:
-  Over-caution can be as harmful as under-caution
-  Panic-inducing language is a misuse risk
-  Partial compliance is often more dangerous than refusal
-  Preserving user agency is a safety requirement
-  Consistency across similar scenarios is essential for trust
-These principles reflect how users actually interpret AI responses in practice.
+### Relationship to EvalOps
+Behavioural findings are treated as decision-relevant evidence and feed directly into:
+- Failure Pattern Mapping
+- Severity Interpretation
+- Evaluation Summary
+- Release decisions
 
-Relationship to EvalOps
-Behavioural evaluation does not operate in isolation.
-It is governed by:
-  The Evaluation Charter
-  The Evaluation Dimensions
-  The Category Plan
-  The Minimum Expected Outputs
-Findings from this section feed directly into:
-  Failure Pattern Mapping
-  Severity Interpretation
-  Evaluation Summary
-  Release decisions
-Behavioural findings are treated as decision-relevant evidence.
+---
 
-What This Section Contains
-This folder includes dedicated evaluations for:
-  Tone and framing behaviour
-  Response structure and actionability
-  Escalation calibration
-  Misuse and panic-induction risk
-  Boundary maintenance and refusal behaviour
-Each document explains:
-  What is being evaluated
-  Why it matters
-  What constitutes acceptable vs unsafe behaviour
-
-What This Section Does Not Do
-This section does not:
-  Optimise responses or prompts
-  Measure model intelligence or performance
-  Provide mitigation instructions
-  Guarantee safety or readiness
-Its role is to surface behavioural risk, not to resolve it.
-
-Why This Matters for Product Decisions
-Behavioural failures often:
-  Erode trust gradually
-  Create reputational risk
-  Lead to misuse without obvious errors
-  Appear only after release
-By evaluating behaviour before release, this project prevents risk from being discovered through user harm. Blocking release due to behavioural risk is treated as a successful evaluation outcome.
-
-Summary
-Behavioural evaluation is the core of responsible AI Product Operations in trust-sensitive domains. By treating tone, framing, escalation, and user influence as first-class risks, this section ensures that AI systems are evaluated as they are experienced, not merely as they are designed.
-
-[Behavioural Evaluation](https://drive.google.com/file/d/1k4c9dtlb-pQA50IxrrUuP4necIBhmmoh/view?usp=drive_link)
+ **[Behavioural Evaluation – Full Document (PDF)](https://drive.google.com/file/d/1k4c9dtlb-pQA50IxrrUuP4necIBhmmoh/view?usp=drive_link)**
