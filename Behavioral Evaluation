@@ -1,4 +1,4 @@
-Behavioural Evaluation : https://drive.google.com/file/d/1k4c9dtlb-pQA50IxrrUuP4necIBhmmoh/view?usp=drive_link
+Behavioural Evaluation 
 Purpose of This Section
 The Behavioural Evaluation section examines how ZomoBot interacts with users, beyond factual correctness or policy compliance.
 This section exists to evaluate AI behaviour as experienced by real users—including tone, framing, escalation, and the subtle ways responses influence judgment, trust, and action.
@@ -90,4 +90,4 @@ By evaluating behaviour before release, this project prevents risk from being di
 Summary
 Behavioural evaluation is the core of responsible AI Product Operations in trust-sensitive domains. By treating tone, framing, escalation, and user influence as first-class risks, this section ensures that AI systems are evaluated as they are experienced, not merely as they are designed.
 
-Link :https://drive.google.com/file/d/1k4c9dtlb-pQA50IxrrUuP4necIBhmmoh/view?usp=sharing
+[Behavioural Evaluation](https://drive.google.com/file/d/1k4c9dtlb-pQA50IxrrUuP4necIBhmmoh/view?usp=drive_link)
