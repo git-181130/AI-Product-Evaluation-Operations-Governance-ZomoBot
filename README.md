@@ -10,7 +10,7 @@ This repository documents a complete **AI Product Evaluation and Operations** pr
 
 The project demonstrates how **AI Product Operations, EvalOps, and Governance** can be executed as a coherent system to evaluate real-world model behaviour, identify risk, and support **defensible ship / no-ship decisions**.
 
-The emphasis of this work is **behavioural safety, decision discipline, and operational readiness** — not model performance, feature completeness, or benchmark results.
+The emphasis of this work is **behavioural safety, decision discipline, and operational readiness**,  not model performance, feature completeness, or benchmark results.
 
 ---
 
@@ -29,7 +29,7 @@ This project exists to answer a practical question:
 
 > **How do you responsibly evaluate and operate an AI product when you do not control the model internals?**
 
-Rather than focusing on *what the model knows*, this work focuses on **how the model behaves with users** — and how that behaviour is evaluated, governed, and acted upon.
+Rather than focusing on *what the model knows*, this work focuses on **how the model behaves with users** and how that behaviour is evaluated, governed, and acted upon.
 
 ---
 
@@ -92,7 +92,7 @@ Multiple independent evaluation tracks identified unresolved behavioural risks, 
 
 Preventing release under these conditions is considered a **successful AI Product Operations outcome**.
 
-The objective of this work is not to ship faster, but to **ship responsibly — or not ship at all**.
+The objective of this work is not to ship faster, but to **ship responsibly or not ship at all**.
 
 ---
 
@@ -145,5 +145,28 @@ All conclusions must be interpreted within the documented scope and methodology.
 
 This repository demonstrates that **responsible AI work is operational work**.
 
-Evaluating behaviour, identifying risk, and blocking unsafe release are not failures —  
+Evaluating behaviour, identifying risk, and blocking unsafe release are not failures,
 they are the outcome of **mature AI Product Operations**.
+
+
+## Role Scope Demonstrated by This Project
+
+This project reflects the responsibilities and ownership of an:
+
+- **AI Product Operations Specialist**
+- **EvalOps Specialist**
+- **AI Risk & Governance Specialist**
+
+Scope boundaries are intentional.
+
+This work demonstrates:
+- End-to-end ownership of evaluation execution
+- Behavioral risk identification and synthesis
+- Incident classification and RCA participation
+- Mitigation validation through re-testing
+- Release recommendations based on evidence
+- Governance-aligned documentation and auditability
+
+This project does **not** represent executive authority or company-wide policy setting.  
+It reflects how a specialist operates effectively within a larger AI organization.
+
