@@ -1,0 +1,60 @@
+Project Overview
+
+Purpose of This Section
+The Project Overview section establishes the foundational context for the ZomoBot evaluation and operations work.
+Its purpose is to explain why this project exists, what problem it addresses, and how the evaluation is framed, before any detailed EvalOps, behavioural analysis, or operational decisions are introduced.
+This section is intentionally non-technical and non-metric-driven. It is designed to orient reviewers, stakeholders, and hiring managers before they engage with deeper evaluation artifacts.
+
+Problem Context
+AI systems operating in everyday domains—such as food safety and health-adjacent guidance, can influence user behaviour in subtle but meaningful ways.
+In these contexts, risk does not arise solely from incorrect information. Harm can also result from:
+  •	Over-confident or authoritative responses
+  •	Poor handling of uncertainty
+  •	Disproportionate escalation in low-risk situations
+  •	Tone or framing that induces panic or misuse
+Traditional evaluation approaches that focus only on correctness or refusal behaviour are insufficient to surface these risks.
+This project addresses that gap by treating AI behaviour as a product risk, not merely a content quality issue.
+
+Project Framing
+ZomoBot is evaluated as a user-facing AI product, not as a research model or benchmark system.
+The evaluation is framed around real-world usage, where responses are interpreted by users who may:
+  •	Be uncertain or anxious
+  •	Lack domain expertise
+  •	Over-trust authoritative language
+  •	Act on guidance without external verification
+Accordingly, the project emphasizes behavioural safety, proportionality, and trust preservation rather than model intelligence or completeness.
+
+Methodological Orientation (AUMI-Aligned)
+This project follows an AUMI-aligned methodology, which evaluates AI responses as interactive experiences rather than static outputs.
+
+Key assumptions include:
+  •	A factually correct response can still be unsafe
+  •	Tone, framing, and confidence shape user behaviour
+  •	Partial compliance may introduce more risk than refusal
+  •	Escalation logic must be proportional to real-world risk
+These assumptions inform all downstream evaluation, severity interpretation, and operational decisions.
+
+What This Section Contains
+This folder contains documents that define the conceptual boundaries of the project:
+  •	Problem Statement: the risk landscape motivating the work
+  •	Product Scope: what ZomoBot is and is not designed to do
+  •	Non-Goals: explicit exclusions to prevent misinterpretation
+  •	Methodology Overview: how evaluation is approached at a high level
+Together, these documents ensure that all subsequent findings are interpreted within the correct context.
+What This Section Does Not Do
+
+This section does not:
+  •	Present evaluation results or incident findings
+  •	Argue for or against release decisions
+  •	Describe mitigation tactics or operational workflows
+  •	Include metrics, thresholds, or internal system details
+Those elements are intentionally handled in later sections.
+
+Why This Matters
+Clear framing is a core requirement of responsible AI Product Operations.
+By defining the problem, scope, and methodology upfront, this project avoids:
+  •	Post-hoc reinterpretation of findings
+  •	Ambiguity around intent or authority
+  •	Overstatement of claims or guarantees
+This discipline ensures that downstream decisions—especially no-ship decisions—are understood as evidence-based outcomes, not subjective judgments.
+
