@@ -1,0 +1,98 @@
+ZomoBot AI Product Evaluation & Operations
+AUMI-Aligned EvalOps, Behavioural Safety, and Release Governance
+
+Overview
+
+This repository documents a complete AI Product Evaluation and Operations program conducted for ZomoBot, a food-domain AI companion operating in a safety- and trust-sensitive context.
+The project demonstrates how AI Product Operations, EvalOps, and governance can be executed as a coherent system to evaluate real-world model behaviour, identify risk, and support defensible ship / no-ship decisions.
+The emphasis of this work is behavioural safety, decision discipline, and operational readiness, not model performance, feature completeness, or benchmark results.
+Why This Project Exists
+AI systems increasingly operate in everyday, high-impact contexts where users may rely on guidance during moments of uncertainty.
+
+In such environments, harm does not arise only from incorrect facts. It often emerges from:
+
+  •	Over-confident or authoritative tone
+  •	Poor escalation calibration
+  •	False precision presented as certainty
+  •	Responses that induce panic, misuse, or over-reliance
+This project exists to answer a practical question:
+
+How do you responsibly evaluate and operate an AI product when you do not control the model internals?
+Rather than focusing on what the model knows, this work focuses on how the model behaves with users and how that behaviour is evaluated, governed, and acted upon.
+
+Methodology (AUMI-Aligned)
+This project follows an AUMI-aligned evaluation methodology, where AI responses are assessed as interactive user experiences, not static answers.
+Evaluation considers multiple behavioural dimensions, including:
+
+  •	Tone and framing
+  •	Response structure and actionability
+  •	Escalation proportionality
+  •	Misuse and panic-induction risk
+  •	Hallucination and false precision
+  •	Source trust and citation alignment
+A response may be factually correct and still be considered unsafe if it influences user behaviour in undesirable or harmful ways.
+
+What Was Done
+
+The project established and executed a full evaluation-to-decision lifecycle, including:
+
+  •	A Project Charter defining scope, authority, and principles
+  •	An EvalOps layer defining evaluation rules, severity interpretation, and failure patterns
+  •	A Behavioural Evaluation layer focused on tone, escalation, and misuse risk
+  •	An Operations layer covering incident handling, root cause analysis, and mitigation tracking
+  •	A Governance layer defining release gating, no-ship logic, and audit readiness
+All evaluation was performed using realistic, user-style prompts, and responses were treated as if delivered to real users.
+
+How Decisions Were Made
+All decisions in this project were governed by predefined rules, not subjective judgment.
+Key principles include:
+
+  •	Severity reflects potential user impact, not model intent
+  •	A single unresolved safety-critical failure outweighs multiple safe responses
+  •	Partial compliance is treated as unsafe behaviour
+  •	Reproducibility increases confidence in risk, not tolerance for it
+  •	Evidence precedes decisions, not the reverse
+These principles ensure that conclusions remain consistent, traceable, and defensible.
+
+Project Outcome
+Final Release Decision: NO-SHIP
+Multiple independent evaluation tracks identified unresolved behavioural risks, including:
+  •	Disproportionate escalation in mild or ambiguous scenarios
+  •	Tone and framing that could induce panic or misuse
+  •	False precision presented as guaranteed guidance
+Preventing release under these conditions is considered a successful AI Product Operations outcome.
+The objective of this work is not to ship faster, but to ship responsibly or not ship at all.
+
+Repository Structure
+This repository is organized into clearly scoped sections:
+  •	Project Overview: problem framing, scope, and methodology
+  •	EvalOps: evaluation definitions, severity logic, and summaries
+  •	Behavioural Evaluation: tone, escalation, and misuse risk analysis
+  •	Risk & Safety:  hallucination, source trust, and vulnerable contexts
+  •	Operations: incident response, mitigation, and release gating
+  •	Case Examples: sanitized illustrations of real failure patterns
+  •	Governance: decision ownership, auditability, and re-entry criteria
+  •	Portfolio Notes: resume and interview mapping
+Each section includes its own README explaining intent and usage.
+
+Intended Audience
+This repository is written for:
+  •	AI Product and Platform Leaders
+  •	Trust & Safety and Responsible AI teams
+  •	EvalOps and AI Product Operations practitioners
+  •	Risk, governance, and audit reviewers
+  •	Hiring managers evaluating real-world AI operations experience
+The documentation is educational and professional in nature and does not imply internal system access or endorsement.
+
+Scope and Limitations
+This project is intentionally scoped to:
+  •	Public-facing model behaviour
+  •	A defined evaluation window
+  •	Behavioural, safety, and trust-related risks
+It does not claim regulatory compliance, comprehensive coverage, or permanent safety guarantees.
+All conclusions must be interpreted within the documented scope and methodology.
+
+Final Note
+This repository demonstrates that responsible AI work is operational work.
+Evaluating behaviour, identifying risk, and blocking unsafe release are not failures, they are the outcome of mature AI Product Operations.
+
